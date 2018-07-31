@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_58872_needit_test_parent" label="test_child" max_length="40" name="x_58872_needit_test_child" type="collection">
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="request" value="request"/>
+                <element inactive_on_update="false" label="task" value="task"/>
+            </choice>
+        </element>
+    </element>
+</database>
